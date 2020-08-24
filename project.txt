@@ -1,0 +1,29 @@
+//user 
+
+INSERT INTO `user_information` (`First_Name`, `Last_Name`, `User_Name`, `Password`, `Confirm_Password`, `Email_ID`, `Contact_No`) VALUES ('shuvojit', 'roy', 'shuvojit', '123', '123', 'shuvojit@gmail.com', '01536132839'), ('dipto', 'roy', 'dipto', '1234', '1234', 'dip@gmail.com', '01718157767');
+
+
+
+//admin
+INSERT INTO `admin_information` (`First_Name`, `Last_Name`, `User_Name`, `Password`, `Confirm_Password`, `Email_ID`, `Contact_No`) VALUES ('james', 'bond', 'james', '007', '007', 'bond.james@gmail.com', '0199910202'), ('dip', 'roy', 'roydip', '1234', '1234', 'roy.dip7100@gmail.com', '010012021');
+
+
+
+//// BOOK Info
+
+
+INSERT INTO `bookshelf` (`Book_ID`, `Book_Name`, `Author_Name`, `Shelf_No`, `Total_Copy`, `Available_Copy`) VALUES ('CSE112', 'Introduction to JAVA', 'Herbert', '6A', '8', '6'), ('cse112A', 'Python', 'Wes McKinney ', '6B', '3', '3'), ('CSE110', 'Let Us C ', 'kanit Kar', '6C', '3', '2'), ('EEE125', 'Digital Logic Design', 'Herbert', '7B', '8', '7'), ('CSE120', 'C# introduction', 'Microsoft corporation', '6D', '8', '2'), ('EEE110', 'Signal Process', 'Johnson', '7B', '12', '9'), ('Phy12', 'Heat Thermodynamics and Statistical Physics', 'Brijlal', '1A', '12', '10'), ('phy13', 'Heat Thermodynamics', 'Brijlal', '1B', '10', '6'), ('EEE133', 'Microprocessor', 'Michlw.S.Malone', '12A', '4', '4'), ('CSE12', 'C++ Introduction', 'Dennis Ritchie', '8A', '15', '0');
+
+
+
+
+////BOOK BORRow
+
+INSERT INTO `issue_books` (`User_Name`, `Book_ID`, `Borrow_Date`, `Return_Date`) VALUES ('dipto', 'CSE110', '11-december-2017', '20-December-2017'), ('shuvojit', 'CSE111', '15-jan-2018', '20-jan-2018');
+
+
+
+
+
+////
+INSERT INTO `librarian_information` (`First_Name`, `Last_Name`, `User_Name`, `Password`, `Confirm_Password`, `Email_ID`, `Contact_No`) VALUES ('tamim', 'khan', 'tamim', '123', '123', 'tamim@gmail.com', '0134193911'), ('shakib', 'hasan', 'shakib', '123', '123', 'shakib@gmail.com', '091932311');

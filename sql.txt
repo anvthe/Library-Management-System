@@ -1,0 +1,14 @@
+user######
+INSERT INTO `user_information` (`First_Name`, `Last_Name`, `User_Name`, `Password`, `Confirm_Password`, `Email_ID`, `Contact_No`) VALUES ('roney', 'khan', 'roney', '1111', '1111', 'roneykhan@live.com', '01819109909'), ('joty', 'khan', 'joty', '2222', '2222', 'joty@gmail.com', '0175218801');
+
+admin#####
+INSERT INTO `admin_information` (`First_Name`, `Last_Name`, `User_Name`, `Password`, `Confirm_Password`, `Email_ID`, `Contact_No`) VALUES ('roney', 'khan', 'roney', '1111', '1111', 'roneykhan@live.com', '01819109909'), ('joty', 'khan', 'joty', '2222', '2222', 'joty@gmgmail.com', '01911109101');
+
+bookshelf#####
+INSERT INTO `bookshelf` (`Book_ID`, `Book_Name`, `Author_Name`, `Shelf_No`, `Total_Copy`, `Available_Copy`) VALUES ('CSE111', 'JAVA', 'Niloy', '2B', '7', '2'), ('CSE112', 'Python', 'Pogo', '1A', '5', '2');
+
+librain####
+INSERT INTO `librarian_information` (`First_Name`, `Last_Name`, `User_Name`, `Password`, `Confirm_Password`, `Email_ID`, `Contact_No`) VALUES ('roney', 'khan', 'roney', '1111', '1111', 'ronrykhan@live.com', '01819109909'), ('joty', 'khan', 'joty', '2222', '2222', 'joty@gmail.com', '01911109101');
+
+issue####
+INSERT INTO `issue_books` (`User_Name`, `Book_ID`, `Borrow_Date`, `Return_Date`) VALUES ('roney', 'CSE111', '20-december-2017', '23-december-2017'), ('joty', 'CSE112', '19-december-2017', '21-december-2017');
